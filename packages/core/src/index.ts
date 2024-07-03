@@ -3,7 +3,7 @@ import type { Message } from "@/interfaces/types";
 import { Chunky } from "@/domains/domains";
 
 export const core = {
-  helloWorld: () => "helloWorld",
+  helloWorld: () => "yawharuxxbbb",
   john: () => "cena",
   log: (message: Message) => {
     return `${message.level}: ${message.message}`;

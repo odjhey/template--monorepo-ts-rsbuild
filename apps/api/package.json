@@ -1,7 +1,8 @@
 {
   "name": "@repo/api",
   "scripts": {
-    "build": "rsbuild build"
+    "build": "rsbuild build",
+    "dev": "nodemon --watch dist --exec 'node dist/js/server/index.js'"
   },
   "dependencies": {
     "@repo/core": "workspace:*"
@@ -11,6 +12,7 @@
     "@rsbuild/core": "^0.7.10",
     "@rsdoctor/rspack-plugin": "^0.3.6",
     "@types/node": "^20.14.9",
+    "nodemon": "^3.1.4",
     "typescript": "^5.5.3"
   }
 }
