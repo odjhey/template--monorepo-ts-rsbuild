@@ -1,0 +1,11 @@
+{
+  "name": "@repo/vite-config",
+  "type": "module",
+  "files": [
+    "base.js"
+  ],
+  "devDependencies": {
+    "vite": "^5.3.3",
+    "vite-tsconfig-paths": "^4.3.2"
+  }
+}
