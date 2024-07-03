@@ -1,0 +1,6 @@
+{
+  "name": "mono-repo-template",
+  "version": "0.0.0",
+  "description": "",
+  "packageManager": "pnpm@9.4.0"
+}

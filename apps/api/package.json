@@ -1,0 +1,12 @@
+{
+  "name": "@repo/api",
+  "scripts": {
+    "build": "tsc --build --watch"
+  },
+  "dependencies": {
+    "@repo/core": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
