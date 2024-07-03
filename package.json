@@ -2,5 +2,11 @@
   "name": "mono-repo-template",
   "version": "0.0.0",
   "description": "",
-  "packageManager": "pnpm@9.4.0"
+  "packageManager": "pnpm@9.4.0",
+  "scripts": {
+    "dev": "turbo watch dev"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.6"
+  }
 }

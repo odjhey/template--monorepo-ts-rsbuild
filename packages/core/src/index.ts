@@ -9,4 +9,5 @@ export const core = {
     return `${message.level}: ${message.message}`;
   },
   a: { Chunky },
+  another: { hoho: "hello" },
 };
