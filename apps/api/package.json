@@ -1,16 +1,16 @@
 {
   "name": "@repo/api",
   "scripts": {
-    "build:types": "tsc --build --watch",
-    "build": "vite build"
+    "build": "rsbuild build"
   },
-  "type": "module",
   "dependencies": {
     "@repo/core": "workspace:*"
   },
   "devDependencies": {
-    "@repo/vite-config": "workspace:*",
-    "typescript": "^5.5.3",
-    "vite": "^5.3.3"
+    "@repo/rsbuild-config": "workspace:*",
+    "@rsbuild/core": "^0.7.10",
+    "@rsdoctor/rspack-plugin": "^0.3.6",
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
   }
 }

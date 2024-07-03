@@ -1,7 +1,15 @@
 import { core } from "@repo/core";
+import http from "http";
 
-core.helloWorld();
-core.john();
-core.log({ level: "info", message: "Hello World" });
-console.log(core.a.Chunky.v);
-console.log(core.another.hoho);
+const hostname = "127.0.0.1";
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "text/plain");
+  res.end(core.helloWorld());
+});
+
+server.listen(port, hostname, () => {
+  console.log("running");
+});
